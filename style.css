@@ -220,27 +220,28 @@ footer h3 {
       padding-inline: 0.3rem;
       color: var(--primary);
     }
-  button{
-        background-color: #f7a715;
-        font-family: 'Bebas Neue', sans-serif;
-        font-size: 1.2rem;
-        color: #0e3273;
-        padding: 0.4rem 1rem;
-        border: solid;
-        border-radius: 10px;
-    }
-.button:hover {
-        background-color: transparent; 
-        color: #f7a715; 
-}
 
 .btn.btn-outline-success {
     color: #f7a715;
+    font-family: 'Bebas Neue', sans-serif;
     border-color: #f7a715;
     transition: all 0.3s ease; 
   }
   
   .btn.btn-outline-success:hover {
     background-color: #f7a715;
+    font-family: 'Bebas Neue', sans-serif;
     color: #0e3273;
+  }
+  .dropdown-menu {
+    background-color: #0e3273;  
+    font-family: 'Bebas Neue', sans-serif;
+    color: #f7a715;
+  }
+  .dropdown-item:hover {
+    color: #f7a715;
+  }
+  .nav-item {
+    font-family: 'Bebas Neue', sans-serif;
+    color: #f7a715;
   }
