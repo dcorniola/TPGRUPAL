@@ -94,16 +94,17 @@ body {
 /* ----------INICIO Estilo de la barra de navegación nueva---------- */
 .menu__wrapper {
   display: flex;
-  position: fixed;
+  position: relative;
+  /* position: fixed; */
   justify-content: space-between;
   width: 100vw;
-  z-index: 2;
+  /* z-index: 2; */
   gap: 24px;
   background-color: var(--azul-claro);
   height: var(--navbar-height);
   padding: 0px 16px;
   align-items: center;
-  box-shadow: 0 1px 0 0 rgba(0, 0, 0, .1);
+  box-shadow: 0 2px 0 0 rgba(0, 0, 0, .1);
 }
 
 .menu__bar {
