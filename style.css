@@ -488,7 +488,7 @@ footer h3 {
     color: var(--amarillo);
   }
 
-/* ---------Estilo del formulario nuevo---------- */
+/* ---------INICIO Estilo del formulario nuevo---------- */
 
 .formulario {
     margin: 0 0 30px;
@@ -560,3 +560,44 @@ footer h3 {
     background-color: var(--amarillo);
     color: var(--azul-medio);
   }
+/* ---------FIN estilo del formulario nuevo---------- */
+
+
+/* ---INICIO estilo de los legales--- */
+.legales {
+  text-align: center;
+  color: var(--amarillo);
+  box-shadow: 0 -10px 10px 0 rgba(5, 35, 90, 0.12);
+
+}
+
+.legales h3 {
+  font-family: 'Bebas Neue', sans-serif;
+  font-weight: 400;
+}
+
+.legales #empresa {
+  font-size: 20px;
+  padding: 10px 0 8px;
+  background-color: var(--azul-claro);
+}
+
+.legales #direccion {
+  background-color: var(--azul-medio);
+  padding: 18px;
+}
+
+.legales #direccion h3 {
+  font-size: 30px;
+}
+
+.legales #copy {
+  background-color: var(--azul-claro);
+  padding: 6px 0 4px;
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: 20px;
+}
+
+/* ---FIN estilo de los legales--- */
+
+/* ---------FIN Footer---------- */
