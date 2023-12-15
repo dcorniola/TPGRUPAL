@@ -16,8 +16,8 @@
   --amarillo: #f7a715;
   --blanco: #E4E8EF;
   --gris-celeste: #AEBAD0;
-  --fondo-desplegado-indiv: #0e3273;
 }
+
 
 body {
   font-family: 'Raleway', sans-serif;
@@ -94,17 +94,16 @@ body {
 /* ----------INICIO Estilo de la barra de navegación nueva---------- */
 .menu__wrapper {
   display: flex;
-  position: relative;
-  /* position: fixed; */
+  position: fixed;
   justify-content: space-between;
   width: 100vw;
-  /* z-index: 2; */
+  z-index: 2;
   gap: 24px;
   background-color: var(--azul-claro);
   height: var(--navbar-height);
   padding: 0px 16px;
   align-items: center;
-  box-shadow: 0 2px 0 0 rgba(0, 0, 0, .1);
+  box-shadow: 0 10px 10px 0 rgba(5, 35, 90, 0.12);
 }
 
 .menu__bar {
@@ -117,8 +116,8 @@ body {
   display: flex;
   align-items: center;
   font-family: 'Bebas Neue', sans-serif;
-  font-size: 24px;
-  color: var(--amarillo);
+  font-size: 28px;
+  color: #F7A715;
   text-decoration: none;
 }
 
@@ -227,7 +226,7 @@ body {
   display: none;
   padding: 8px;
   width: 100%;
-  max-width: 600px;
+  max-width: 500px;
   border: 1px solid var(--azul-medio);
   box-shadow:
       0 50px 100px -20px rgba(0, 0, 0, .12),
@@ -238,14 +237,14 @@ body {
 
 .list-items-with-description {
   list-style-type: none;
-  display: grid;
-  width: 100%;
-  grid-template-columns: 1fr 1fr;
+  display: table-cell;
+  /* display: grid; */
+  width: 50%;
+  /* grid-template-columns: 1fr 1fr; */
 }
 
 .list-items-with-description li {
   display: flex;
-  padding: 8px;
   gap: 16px;
   width: 100%;
 }
@@ -255,16 +254,22 @@ body {
   border-radius: 4px;
 }
 
-.list-items-with-description li svg {
+/* .list-items-with-description li svg {
   stroke: var(--amarillo);
   stroke-width: 1.2px;
   width: 24px;
   height: 24px;
-}
+} */
 
 .item-title h3 {
-  font-weight: 500;
+  font-weight: 400;
   font-size: 14px;
+  color: var(--blanco);
+  width: 180px;
+  padding: 6px;
+}
+
+.item-title h3:hover {
   color: var(--amarillo);
 }
 
@@ -286,21 +291,21 @@ body {
 
 .action-buttons a {
   text-decoration: none;
-  font-size: 14px;
-  font-weight: 500;
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: 18px;
+  font-weight: 400;
   white-space: nowrap;
-  padding: 4px 10px;
+  padding: 5px 10px 2px;
   transition: all 0.2s ease-in-out;
-  line-height: 1.25rem;
+  line-height: 1.6rem;
 }
 
 .secondary {
-  background: none;
+  background-color: var(--azul-medio);
   color: var(--amarillo);
   outline: none;
-  border: 1.4px solid var(--amarillo);
+  /* border: 1.4px solid var(--azul-medio); */
   border-radius: 4px;
-  /* font-family: 'Bebas Neue', sans-serif; */
 }
 
 .secondary:hover {
@@ -311,15 +316,14 @@ body {
 .primary {
   color: var(--amarillo);
   border-radius: 4px;
-  border: 1.6px solid var(--azul-medio);
+  /* border: 1.6px solid var(--azul-medio); */
   background-color: var(--azul-medio);
   padding: 8px 16px;
-  /* font-family: 'Bebas Neue', sans-serif; */
 }
 
 .primary:hover {
   background-color: var(--amarillo);
-  border: 1.6px solid var(--amarillo);
+  /* border: 1.6px solid var(--amarillo); */
   color: var(--azul-medio);
 }
 
@@ -353,9 +357,9 @@ body {
   }
 
   .burger-menu svg {
-      height: 20px;
+      height: 24px;
       stroke: var(--amarillo);
-      width: 20px;
+      width: 24px;
   }
 }
 /* ----------FIN estilo de la barra de navegación nueva---------- */
