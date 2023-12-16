@@ -26,71 +26,6 @@ body {
   background-color: var(--azul-claro);
 }
 
-/* ----------INICIO Estilo del navbar---------- */
-/* .navbar {
-    background-color: #0e3273;
-    color: #f7a715;
-    border-bottom: 2px solid #f7a715 ;
-}
-
-.container-fluid{
-    background-color: #0e3273;
-}
-
-.navbar-brand{
-    color:#f7a715;
-    font-weight: bold;
-    font-size: 24px;
-    font-family: 'Bebas Neue', sans-serif;
-}
-
-.navbar-toggler-icon{
-    background-color:#f7a715;
-}
-
-.nav-link{
-    color: #f7a715;
-}
-
-.nav-item{
-    color: #f7a715;
-}
-
-.nav-link.active{
-    color: #f7a715;
-} 
-
-.dropdown-menu {
-    background-color: #0e3273;  
-    font-family: 'Bebas Neue', sans-serif;
-    color: #f7a715;
-  }
-
-  .dropdown-item:hover {
-    color: #f7a715;
-  }
-  
-  .nav-item {
-    font-family: 'Bebas Neue', sans-serif;
-    color: #f7a715;
-  }
-  
-  .btn.btn-outline-success {
-      color: var(--amarillo);
-      font-family: 'Bebas Neue', sans-serif;
-      border-color: var(--amarillo);
-      transition: all 0.2s ease; 
-  }
-  
-  .btn.btn-outline-success:hover {
-    background-color: var(--amarillo);
-    font-family: 'Bebas Neue', sans-serif;
-    color: var(--azul-medio);
-  }*/
-
-
-/* ----------FIN estilo del navbar---------- */
-
 /* ----------INICIO Estilo de la barra de navegación nueva---------- */
 .menu__wrapper {
   display: flex;
@@ -103,7 +38,7 @@ body {
   height: var(--navbar-height);
   padding: 0px 16px;
   align-items: center;
-  box-shadow: 0 10px 10px 0 rgba(5, 35, 90, 0.12);
+  box-shadow: 0 10px 10px 0 rgba(5, 35, 90, 0.2);
 }
 
 .menu__bar {
@@ -254,13 +189,6 @@ body {
   border-radius: 4px;
 }
 
-/* .list-items-with-description li svg {
-  stroke: var(--amarillo);
-  stroke-width: 1.2px;
-  width: 24px;
-  height: 24px;
-} */
-
 .item-title h3 {
   font-weight: 400;
   font-size: 14px;
@@ -365,8 +293,9 @@ body {
 /* ----------FIN estilo de la barra de navegación nueva---------- */
 
 
+/* ----------INICIO estilo del carrusel---------- */
 .carousel{
-    margin-top: 25px;
+    padding-top: 74px;
     margin-left: 10px;
     margin-right: 10px;
 }
@@ -386,7 +315,10 @@ body {
 .carousel-control-next-icon{
     background-color: #0e3273;
 }
+/* ----------FIN estilo del carrusel---------- */
 
+
+/* ----------INICIO estilo cajas pelis---------- */
 .card-body{
     background-color: #1b4796;
     color: #f7a715;
@@ -432,48 +364,10 @@ body {
     background-color: #0e3273;
     font-family: 'Bebas Neue', sans-serif;
 }
-
-/* ---------Estilo del formulario viejo---------- */
-
-/* form{
-    max-width: 400px;
-    margin: auto;
-}
-
-label{
-    display: block;
-    margin-top: 10px;
-    margin-bottom: 10px;
-}
-
-input{
-    width: 95%;
-    padding: 8px;
-    border-radius: 3px;
-    font-size: 20px;
-    border: 1px solid #f7a715;
-    margin-bottom: 20px;
-}
-
-button{
-    background-color: #0e3273;
-    color: #f7a715;
-    transition: background-color 3s;
-    cursor: pointer;
-}
-
-button:hover{
-    background-color: #f7a715;
-}
-
-h1{
-    color: #f7a715;
-    text-align: center;
-} */
+/* ----------FIN estilo cajas pelis---------- */
 
 
-/* ---------Footer---------- */
-
+/* ---------INICIO estilo Footer---------- */
 footer {
     background-color: var(--azul-claro);
 }

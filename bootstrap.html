@@ -14,239 +14,194 @@
     
 </head>
   <body>
-    <!----------INICIO barra de navegacion---------->
-    <!-- <nav class="navbar navbar-expand-lg bg-body-tertiary">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="#">Blockbuster</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                <li class="nav-item">
-                  
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Home</a>
-                  <a class="nav-link" href="#">Mis favoritos</a>
-                </li>
-                <li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                    Géneros
-                  </a>
-                  <ul class="dropdown-menu">
-                    <li><a class="dropdown-item" href="#">Acción</a></li>
-                    <li><a class="dropdown-item" href="#">Drama</a></li>
-                    <li><a class="dropdown-item" href="#">Comedia</a></li>
-                    <li><a class="dropdown-item" href="#">Romanticas</a></li>
-                    <li><hr class="dropdown-divider"></li>
-                    <li><a class="dropdown-item" href="#">Aclamadas por la crítica</a></li>
-                  </ul>
-                </li>
-          </ul>
-          <div class="ms-auto d-flex align-items-center">
-            <form class="d-flex me-3" role="search">
-              <input class="form-control me-2" type="search" placeholder="Escribir" aria-label="Search">
-              <button class="btn btn-outline-success" type="submit">Buscar</button>
-            </form>
-            </div>
-          </div>
-        </div>
-      </div>
-    </nav> -->
-    <!----------FIN Barra de navegacion---------->
-
-
    <!----------INICIO de la barra de navegacion nueva---------->
-   <header class="menu__wrapper">
-    <div class="menu__bar">
-        <a href="#" title="Home" aria-label="home" class="logo">
-            <h3>BLOCKBUSTER</h3>
-        </a>
-        <nav>
-            <ul class="navigation hide">
-                <li>
-                    <a href="#inicio" title="Inicio">
-                        Inicio
-                    </a>
-                </li>
-                <li>
-                    <a href="#mis_favoritos" title="Mis_favoritos">
-                        Mis favoritos
-                    </a>
-                </li>
+    <header class="menu__wrapper">
+      <div class="menu__bar">
+          <a href="#" title="Home" aria-label="home" class="logo">
+              <h3>BLOCKBUSTER</h3>
+          </a>
+          <nav>
+              <ul class="navigation hide">
+                  <li>
+                      <a href="#inicio" title="Inicio">
+                          Inicio
+                      </a>
+                  </li>
+                  <li>
+                      <a href="#mis_favoritos" title="Mis_favoritos">
+                          Mis favoritos
+                      </a>
+                  </li>
 
-                <li>
-                    <button>
-                        Géneros
-                        <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16">
-                            <path
-                                d="M12.78 5.22a.749.749 0 0 1 0 1.06l-4.25 4.25a.749.749 0 0 1-1.06 0L3.22 6.28a.749.749 0 1 1 1.06-1.06L8 8.939l3.72-3.719a.749.749 0 0 1 1.06 0Z">
-                            </path>
-                        </svg>
-                    </button>
-                    <div class="dropdown__wrapper">
-                        <div class="dropdown">
-                            <ul class="list-items-with-description" id="lista1">
-                                <li>
-                                    <div class="item-title">
-                                        <h3>Acción</h3>
-                                    </div>
-                                </li>
-                                <li>
-                                    <div class="item-title">
-                                        <h3>Anime</h3>
-                                    </div>
-                                </li>
-                                <li>
-                                    <div class="item-title">
-                                        <h3>Cine de intriga</h3>
-                                    </div>
-                                </li>
-                                <li>
-                                    <div class="item-title">
-                                        <h3>Clásicas</h3>
-                                    </div>
-                                </li>
-                                <li>
-                                    <div class="item-title">
-                                        <h3>Cortos</h3>
-                                    </div>
-                                </li>
-                                <li>
-                                    <div class="item-title">
-                                        <h3>De Argentina</h3>
-                                    </div>
-                                </li>
-                                <li>
-                                    <div class="item-title">
-                                        <h3>De Hollywood</h3>
-                                    </div>
-                                </li>
-                                <li>
-                                    <div class="item-title">
-                                        <h3>Deportes</h3>
-                                    </div>
-                                </li>
-                                <li>
-                                    <div class="item-title">
-                                        <h3>Documentales</h3>
-                                    </div>
-                                </li>
-                                <li>
-                                    <div class="item-title">
-                                        <h3>Dramas</h3>
-                                    </div>
-                                </li>
-                                <li>
-                                    <div class="item-title">
-                                        <h3>Fantasía</h3>
-                                    </div>
-                                </li>
-                                <li>
-                                    <div class="item-title">
-                                        <h3>Fe y espiritualidad</h3>
-                                    </div>
-                                </li>
-                            </ul>
+                  <li>
+                      <button>
+                          Géneros
+                          <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16">
+                              <path
+                                  d="M12.78 5.22a.749.749 0 0 1 0 1.06l-4.25 4.25a.749.749 0 0 1-1.06 0L3.22 6.28a.749.749 0 1 1 1.06-1.06L8 8.939l3.72-3.719a.749.749 0 0 1 1.06 0Z">
+                              </path>
+                          </svg>
+                      </button>
+                      <div class="dropdown__wrapper">
+                          <div class="dropdown">
+                              <ul class="list-items-with-description" id="lista1">
+                                  <li>
+                                      <div class="item-title">
+                                          <h3>Acción</h3>
+                                      </div>
+                                  </li>
+                                  <li>
+                                      <div class="item-title">
+                                          <h3>Anime</h3>
+                                      </div>
+                                  </li>
+                                  <li>
+                                      <div class="item-title">
+                                          <h3>Cine de intriga</h3>
+                                      </div>
+                                  </li>
+                                  <li>
+                                      <div class="item-title">
+                                          <h3>Clásicas</h3>
+                                      </div>
+                                  </li>
+                                  <li>
+                                      <div class="item-title">
+                                          <h3>Cortos</h3>
+                                      </div>
+                                  </li>
+                                  <li>
+                                      <div class="item-title">
+                                          <h3>De Argentina</h3>
+                                      </div>
+                                  </li>
+                                  <li>
+                                      <div class="item-title">
+                                          <h3>De Hollywood</h3>
+                                      </div>
+                                  </li>
+                                  <li>
+                                      <div class="item-title">
+                                          <h3>Deportes</h3>
+                                      </div>
+                                  </li>
+                                  <li>
+                                      <div class="item-title">
+                                          <h3>Documentales</h3>
+                                      </div>
+                                  </li>
+                                  <li>
+                                      <div class="item-title">
+                                          <h3>Dramas</h3>
+                                      </div>
+                                  </li>
+                                  <li>
+                                      <div class="item-title">
+                                          <h3>Fantasía</h3>
+                                      </div>
+                                  </li>
+                                  <li>
+                                      <div class="item-title">
+                                          <h3>Fe y espiritualidad</h3>
+                                      </div>
+                                  </li>
+                              </ul>
 
-                            <ul class="list-items-with-description" id="lista2">
-                                <li>
-                                    <div class="item-title">
-                                        <h3>Independientes</h3>
-                                    </div>
-                                </li>
-                                <li>
-                                    <div class="item-title">
-                                        <h3>Internacionales</h3>
-                                    </div>
-                                </li>
-                                <li>
-                                    <div class="item-title">
-                                        <h3>Los favoritos de la crítica</h3>
-                                    </div>
-                                </li>
-                                <li>
-                                    <div class="item-title">
-                                        <h3>Música y musicales</h3>
-                                    </div>
-                                </li>
-                                <li>
-                                    <div class="item-title">
-                                        <h3>Navidad</h3>
-                                    </div>
-                                </li>
-                                <li>
-                                    <div class="item-title">
-                                        <h3>Para reír</h3>
-                                    </div>
-                                </li>
-                                <li>
-                                    <div class="item-title">
-                                        <h3>Para ver en familia</h3>
-                                    </div>
-                                </li>
-                                <li>
-                                    <div class="item-title">
-                                        <h3>Películas en español</h3>
-                                    </div>
-                                </li>
-                                <li>
-                                    <div class="item-title">
-                                        <h3>Pelis policiales</h3>
-                                    </div>
-                                </li>
-                                <li>
-                                    <div class="item-title">
-                                        <h3>Romances</h3>
-                                    </div>
-                                </li>
-                                <li>
-                                    <div class="item-title">
-                                        <h3>Sci-fi</h3>
-                                    </div>
-                                </li>
-                                <li>
-                                    <div class="item-title">
-                                        <h3>Terror</h3>
-                                    </div>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </li>
-                <li>
-                    <a href="#ayuda" title="Ayuda">
-                        Ayuda
-                    </a>
-                </li>
-            </ul>
-        </nav>
-    </div>
-    <div class="action-buttons hide">
-        <a href="#log-in" title="Log in" class="secondary">
-            Iniciar sesión
-        </a>
-        <a href="#sign-up" title="Sign up" class="primary">
-            Crear cuenta
-        </a>
-    </div>
-    <button aria-label="Open menu" class="burger-menu" type="button">
-        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-menu" width="24" height="24"
-            viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round"
-            stroke-linejoin="round">
-            <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-            <path d="M4 8l16 0" />
-            <path d="M4 16l16 0" />
-        </svg>
-    </button>
-</header>
-<!----------FIN de la barra de navegacion nueva---------->
+                              <ul class="list-items-with-description" id="lista2">
+                                  <li>
+                                      <div class="item-title">
+                                          <h3>Independientes</h3>
+                                      </div>
+                                  </li>
+                                  <li>
+                                      <div class="item-title">
+                                          <h3>Internacionales</h3>
+                                      </div>
+                                  </li>
+                                  <li>
+                                      <div class="item-title">
+                                          <h3>Los favoritos de la crítica</h3>
+                                      </div>
+                                  </li>
+                                  <li>
+                                      <div class="item-title">
+                                          <h3>Música y musicales</h3>
+                                      </div>
+                                  </li>
+                                  <li>
+                                      <div class="item-title">
+                                          <h3>Navidad</h3>
+                                      </div>
+                                  </li>
+                                  <li>
+                                      <div class="item-title">
+                                          <h3>Para reír</h3>
+                                      </div>
+                                  </li>
+                                  <li>
+                                      <div class="item-title">
+                                          <h3>Para ver en familia</h3>
+                                      </div>
+                                  </li>
+                                  <li>
+                                      <div class="item-title">
+                                          <h3>Películas en español</h3>
+                                      </div>
+                                  </li>
+                                  <li>
+                                      <div class="item-title">
+                                          <h3>Pelis policiales</h3>
+                                      </div>
+                                  </li>
+                                  <li>
+                                      <div class="item-title">
+                                          <h3>Romances</h3>
+                                      </div>
+                                  </li>
+                                  <li>
+                                      <div class="item-title">
+                                          <h3>Sci-fi</h3>
+                                      </div>
+                                  </li>
+                                  <li>
+                                      <div class="item-title">
+                                          <h3>Terror</h3>
+                                      </div>
+                                  </li>
+                              </ul>
+                          </div>
+                      </div>
+                  </li>
+                  <li>
+                      <a href="#ayuda" title="Ayuda">
+                          Ayuda
+                      </a>
+                  </li>
+              </ul>
+          </nav>
+      </div>
+      <div class="action-buttons hide">
+          <a href="#log-in" title="Log in" class="secondary">
+              Iniciar sesión
+          </a>
+          <a href="#sign-up" title="Sign up" class="primary">
+              Crear cuenta
+          </a>
+      </div>
+      <button aria-label="Open menu" class="burger-menu" type="button">
+          <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-menu" width="24" height="24"
+              viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round"
+              stroke-linejoin="round">
+              <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+              <path d="M4 8l16 0" />
+              <path d="M4 16l16 0" />
+          </svg>
+      </button>
+    </header>
+    <!----------FIN de la barra de navegacion nueva---------->
 
     
-    <!----------Carrusel---------->
+    <!----------INICIO Carrusel---------->
     <div id="carouselExampleFade" class="carousel slide carousel-fade">
       <div class="carousel-inner">
         <div class="carousel-item active">
@@ -273,6 +228,7 @@
     </div>
 
     <br>
+    <!----------FIN carrusel---------->
 
     
     <!----------Card---------->
@@ -306,7 +262,7 @@
               <a href="#" class="btn btn-primary">Añadir al carrito</a>
             </div>
           </div>
-    </div>
+      </div>
 
       <div class="col-md-3 mb-3">
         <div class="card">
@@ -325,85 +281,85 @@
               <a href="#" class="btn btn-primary">Añadir al carrito</a>
             </div>
           </div>
-    </div>
+      </div>
 
-    <div class="col-md-3 mb-3">
-      <div class="card">
-          <img src="Pulp Fiction.jpg" class="card-img-top" alt="...">
+      <div class="col-md-3 mb-3">
+        <div class="card">
+            <img src="Pulp Fiction.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">PULP FICTION</h5>
+              <p class="card-text">Historias de dos matones, un boxeador y 
+                una pareja de atracadores de poca monta
+                  en una violencia espectacular e irónica.</p>
+              <a href="#" class="btn btn-primary">Añadir al carrito</a>
+            </div>
+          </div>
+      </div>
+
+      <div class="col-md-3 mb-3">
+        <div class="card">
+            <img src="Django.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">DJANGO UNCHAINED</h5>
+              <p class="card-text">Un antiguo esclavo une sus fuerzas con un 
+                cazador de recompensas alemán que lo libera
+                y ayuda a cazar a los criminales más buscados
+                  del Sur, todo ello con la esperanza de encontrar a su
+                  esposa perdida hace mucho tiempo.</p>
+              <a href="#" class="btn btn-primary">Añadir al carrito</a>
+            </div>
+          </div>
+      </div>
+
+      <div class="col-md-3 mb-3">
+        <div class="card">
+            <img src="indiana_arca.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">INDIANA JONES Y LOS CAZADORES DEL ARCA PERDIDO</h5>
+              <p class="card-text">Después de una infructuosa misión en Sudamérica, el Gobierno estadounidense encarga al arqueólogo Indiana Jones la búsqueda del Arca de la Alianza, una reliquia bíblica que contiene los diez mandamientos y que convierte en invencible a su portador. Jones deberá enfrentarse a los nazis para adquirir este precioso objeto.</p>
+              <a href="#" class="btn btn-primary">Añadir al carrito</a>
+            </div>
+          </div>
+      </div>
+
+      <div class="col-md-3 mb-3">
+        <div class="card">
+          <img src="E.T.png" class="card-img-top" alt="...">
           <div class="card-body">
-            <h5 class="card-title">PULP FICTION</h5>
-            <p class="card-text">Historias de dos matones, un boxeador y 
-              una pareja de atracadores de poca monta
-                en una violencia espectacular e irónica.</p>
+            <h5 class="card-title">E.T EL EXTRATERRESTRE</h5>
+            <p class="card-text">Un pequeño extraterrestre de otro planeta queda abandonado en la Tierra cuando su nave se olvida de él. Está completamente solo y asustado hasta que Elliott, un niño de nueve años, lo encuentra y decide esconderlo en su casa para protegerlo. El chico y sus hermanos intentarán encontrar la forma de devolver al extraterrestre a su planeta antes de que lo encuentren los científicos y la policía.</p>
             <a href="#" class="btn btn-primary">Añadir al carrito</a>
           </div>
         </div>
-  </div>
+      </div>
 
-  <div class="col-md-3 mb-3">
-    <div class="card">
-        <img src="Django.jpg" class="card-img-top" alt="...">
-        <div class="card-body">
-          <h5 class="card-title">DJANGO UNCHAINED</h5>
-          <p class="card-text">Un antiguo esclavo une sus fuerzas con un 
-            cazador de recompensas alemán que lo libera
-            y ayuda a cazar a los criminales más buscados
-              del Sur, todo ello con la esperanza de encontrar a su
-              esposa perdida hace mucho tiempo.</p>
-          <a href="#" class="btn btn-primary">Añadir al carrito</a>
+      <div class="col-md-3 mb-3">
+        <div class="card">
+          <img src="TERMINATOR.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">TERMINATOR</h5>
+            <p class="card-text">En el año 2029 las máquinas dominan el mundo. Los rebeldes que luchan contra ellas tienen como líder a John Connor, un hombre que nació en los años ochenta. Para eliminarlo y así acabar con la rebelión, las máquinas envían al pasado el robot Terminator con la misión de matar a Sarah Connor, la madre de John, e impedir así su nacimiento. Sin embargo, un hombre del futuro intentará protegerla.</p>
+            <a href="#" class="btn btn-primary">Añadir al carrito</a>
+          </div>
         </div>
       </div>
-</div>
 
-<div class="col-md-3 mb-3">
-  <div class="card">
-      <img src="indiana_arca.jpg" class="card-img-top" alt="...">
-      <div class="card-body">
-        <h5 class="card-title">INDIANA JONES Y LOS CAZADORES DEL ARCA PERDIDO</h5>
-        <p class="card-text">Después de una infructuosa misión en Sudamérica, el Gobierno estadounidense encarga al arqueólogo Indiana Jones la búsqueda del Arca de la Alianza, una reliquia bíblica que contiene los diez mandamientos y que convierte en invencible a su portador. Jones deberá enfrentarse a los nazis para adquirir este precioso objeto.</p>
-        <a href="#" class="btn btn-primary">Añadir al carrito</a>
+      <div class="col-md-3 mb-3">
+        <div class="card">
+            <img src="Rocky.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">ROCKY</h5>
+              <p class="card-text">Rocky Balboa es un desconocido boxeador 
+                de Philadelphia a quien se le ofrece la posibilidad
+                de alcanzar la fama y ganar el título mundial de los
+                  pesos pesados enfrentándose al actual campeón, Apollo Creed.
+                  Con una gran fuerza de voluntad, Rocky se prepara 
+                  concienzudamente para el combate y también para los
+                  cambios que acabarán produciéndose en su vida.</p>
+              <a href="#" class="btn btn-primary">Añadir al carrito</a>
+            </div>
+          </div>
       </div>
-    </div>
-</div>
-
-<div class="col-md-3 mb-3">
-<div class="card">
-    <img src="E.T.png" class="card-img-top" alt="...">
-    <div class="card-body">
-      <h5 class="card-title">E.T EL EXTRATERRESTRE</h5>
-      <p class="card-text">Un pequeño extraterrestre de otro planeta queda abandonado en la Tierra cuando su nave se olvida de él. Está completamente solo y asustado hasta que Elliott, un niño de nueve años, lo encuentra y decide esconderlo en su casa para protegerlo. El chico y sus hermanos intentarán encontrar la forma de devolver al extraterrestre a su planeta antes de que lo encuentren los científicos y la policía.</p>
-      <a href="#" class="btn btn-primary">Añadir al carrito</a>
-    </div>
-  </div>
-</div>
-
-<div class="col-md-3 mb-3">
-<div class="card">
-    <img src="TERMINATOR.jpg" class="card-img-top" alt="...">
-    <div class="card-body">
-      <h5 class="card-title">TERMINATOR</h5>
-      <p class="card-text">En el año 2029 las máquinas dominan el mundo. Los rebeldes que luchan contra ellas tienen como líder a John Connor, un hombre que nació en los años ochenta. Para eliminarlo y así acabar con la rebelión, las máquinas envían al pasado el robot Terminator con la misión de matar a Sarah Connor, la madre de John, e impedir así su nacimiento. Sin embargo, un hombre del futuro intentará protegerla.</p>
-      <a href="#" class="btn btn-primary">Añadir al carrito</a>
-    </div>
-  </div>
-</div>
-
-  <div class="col-md-3 mb-3">
-    <div class="card">
-        <img src="Rocky.jpg" class="card-img-top" alt="...">
-        <div class="card-body">
-          <h5 class="card-title">ROCKY</h5>
-          <p class="card-text">Rocky Balboa es un desconocido boxeador 
-            de Philadelphia a quien se le ofrece la posibilidad
-            de alcanzar la fama y ganar el título mundial de los
-              pesos pesados enfrentándose al actual campeón, Apollo Creed.
-              Con una gran fuerza de voluntad, Rocky se prepara 
-              concienzudamente para el combate y también para los
-              cambios que acabarán produciéndose en su vida.</p>
-          <a href="#" class="btn btn-primary">Añadir al carrito</a>
-        </div>
-      </div>
-</div>
 
       <div class="col-md-3 mb-3">
           <div class="card">
@@ -438,23 +394,15 @@
             </div>
       </div>
 
-      </div>
-    </div>
-
-    <!----------------------------------------------------->
-
-    <div class="container">
-      <div class="row">
-
       <div class="col-md-3 mb-3">
-          <div class="card">
-              <img src="Memoriasdeafrica.jpg" class="card-img-top" alt="...">
-              <div class="card-body">
-                <h5 class="card-title">MEMORIAS DE AFRICA</h5>
-                <p class="card-text">A principios del Siglo XX, Karen Blixen, una mujer danesa, se establece en Kenia con su infiel esposo. Allí conocerá a un misterioso y solitario cazador.</p>
-                <a href="#" class="btn btn-primary">Añadir al carrito</a>
-              </div>
+        <div class="card">
+            <img src="Memoriasdeafrica.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">MEMORIAS DE AFRICA</h5>
+              <p class="card-text">A principios del Siglo XX, Karen Blixen, una mujer danesa, se establece en Kenia con su infiel esposo. Allí conocerá a un misterioso y solitario cazador.</p>
+              <a href="#" class="btn btn-primary">Añadir al carrito</a>
             </div>
+          </div>
       </div>
 
       <div class="col-md-3 mb-3">
@@ -487,38 +435,11 @@
                 <p class="card-text">En esta ocasión, el detective John McClane se enfrenta a un comando que ha tomado el aeropuerto de Washington DC con el fin de interceptar la extradición de un traficante de drogas centroamericano.</p>
                 <a href="#" class="btn btn-primary">Añadir al carrito</a>
               </div>
-            </div>
-      </div>
-
+          </div>
       </div>
     </div>
+  </div>
 
-    <!----------Formulario viejo---------->
-
-    <!-- <h1>Dejanos tu mensaje!</h1>
-
-    <form>
-
-        <label for="nombre">Nombre: </label><br>
-        <input type="text" id="nombre"><br>
-
-        <label for="apellido">Apellido: </label><br>
-        <input type="text" id="apellido"><br>
-
-        <label for="mail">Mail: </label><br>
-        <input type="text" id="mail"><br>
-
-        <label for="mensaje">Mensaje: </label><br>
-        <input type="text" id="mensaje"><br>
-
-        <button type="submit">Enviar</button>
-
-        <br>
-        <br>
-        <br>
-        <br>
-
-    </form> -->
 
 
  <!----------Footer---------->
@@ -526,7 +447,7 @@
         <!---Titulo del formulario--->
         <h3>Contactanos</h3>
 
-        <!---Formulario nuevo--->
+        <!---INICIO del formulario nuevo--->
         <div class="formulario">
           <div class="input-group">
               <form>
@@ -554,36 +475,20 @@
               </form>
           </div>
         </div>
+        <!---FIN del formulario nuevo--->
 
-        <!---Pie de pagina viejo--->
-        <!-- <div class="card text-center">
-          <div class="card-header">
-            Blockbuster
-          </div>
-          <div class="card-body">
-            <h5 class="card-title">Honduras 3953</h5>
-            <p class="card-text">Capital Federal, Buenos Aires.</p>
-           
-          </div>
-          <div class="card-footer text-body-secondary">
-           <p class="copy">&copy;1985</p> 
-          </div>
-        </div>-->
+        <!---INICIO de los legales de la web--->
+        <div class="legales">
+            <h3 id="empresa">BLOCKBUSTER</h3>
 
+            <div id="direccion">
+                <h3>Honduras 3953</h3>
+                <p>Capital Federal, Buenos Aires.</p>
+            </div>
 
-      <!---INICIO de los legales de la web--->
-      <div class="legales">
-          <h3 id="empresa">BLOCKBUSTER</h3>
-
-          <div id="direccion">
-              <h3>Honduras 3953</h3>
-              <p>Capital Federal, Buenos Aires.</p>
-          </div>
-
-          <p id="copy">&copy;1985</p> 
-      </div>
-      <!---FIN de los legales de la web--->
-
+            <p id="copy">&copy;1985</p> 
+        </div>
+        <!---FIN de los legales de la web--->
     </footer> 
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
