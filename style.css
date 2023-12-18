@@ -353,6 +353,12 @@ body {
     font-size: 14pt;
 }
 
+.btn.btn-price {
+  color: #f7a715;
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: 20px;
+}
+
 .btn.btn-outline-success{
     color: #f7a715;
     border-color: #f7a715;
