@@ -36,3 +36,11 @@
     transform: rotate(360deg);
   }
 }
+body {
+  font-family: 'Raleway', sans-serif; /* Usar la fuente Raleway como la tipografía predeterminada */
+
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Bebas Neue', sans-serif; /* Usar la fuente Bebas Neue para los encabezados */
+}
